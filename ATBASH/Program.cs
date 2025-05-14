@@ -18,7 +18,7 @@ namespace ATBASH
         }
         static int convert(int asciivalu)
         {
-            int asci2num = 218;
+            int asci2num = 219;
             return asci2num - asciivalu;
         }
         static string description(string message)
