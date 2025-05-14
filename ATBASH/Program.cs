@@ -12,5 +12,17 @@ namespace ATBASH
         {
         // hi i'm yonatan
         }
+        static int dangerCheck(string[] words, string sentence)
+        {
+            int danger = 0;
+            foreach (string word in words)
+            {
+                if (sentence.Contains(word))
+                {
+                    danger++;
+                }
+            }
+            return danger;
+        }
     }
 }
