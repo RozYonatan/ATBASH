@@ -8,6 +8,14 @@ namespace ATBASH
 {
     internal class Program
     {
+        static void Main(string[] args)
+        {
+            string message = "Lfi ulixvh ziv kivkzirmt uli z nzqli zggzxp lm gsv Arlmrhg vmvnb. Gsv ilxpvg fmrgh ziv ivzwb zmw dzrgrmt uli gsv hrtmzo. Ylnyh szev yvvm kozxvw mvzi pvb olxzgrlmh. Mfpsyz urtsgvih ziv hgzmwrmt yb uli tilfmw rmurogizgrlm. Gsv zggzxp droo yv hfwwvm zmw hgilmt -- gsvb dlm’g hvv rg xlnrmt.Dv nfhg hgzb srwwvm zmw pvvk gsv kozm hvxivg fmgro gsv ozhg nlnvmg. Erxglib rh mvzi. Hgzb ivzwb.";
+            string[] words = { "bomb", "nukhba", "fighter", "rocket", "secret" };
+            string descripMessage = description(message);
+            int danger = dangerCheck(words, descripMessage);
+            warning(descripMessage, danger);
+        }
         static int convert(int asciivalu)
         {
             int asci2num = 218;
@@ -34,14 +42,6 @@ namespace ATBASH
             }
             return descripMessage;
         }
-        static void Main(string[] args)
-        {
-
-
-            string message = "Lfi ulixvh ziv kivkzirmt uli z nzqli zggzxp lm gsv Arlmrhg vmvnb. Gsv ilxpvg fmrgh ziv ivzwb zmw dzrgrmt uli gsv hrtmzo. Ylnyh szev yvvm kozxvw mvzi pvb olxzgrlmh. Mfpsyz urtsgvih ziv hgzmwrmt yb uli tilfmw rmurogizgrlm. Gsv zggzxp droo yv hfwwvm zmw hgilmt -- gsvb dlm’g hvv rg xlnrmt.Dv nfhg hgzb srwwvm zmw pvvk gsv kozm hvxivg fmgro gsv ozhg nlnvmg. Erxglib rh mvzi. Hgzb ivzwb.";
-            string[] words = { "bomb", "nukhba", "fighter", "rocket", "secret" };
-        }
-
         static int dangerCheck(string[] words, string sentence)
         {
             int danger = 0;
