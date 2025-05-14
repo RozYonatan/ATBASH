@@ -66,7 +66,7 @@ namespace ATBASH
             }
             else if (danger >= 11 && danger <= 15)
             {
-                Console.WriteLine($"ULTRA ALERT!: {sentence} get {danger} points");
+                Console.WriteLine($"ULTRA ALERT!: {sentence}\nget {danger} points");
             }
             else
             {
