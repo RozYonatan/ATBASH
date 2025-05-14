@@ -58,15 +58,15 @@ namespace ATBASH
         {
             if (danger >= 1 && danger <= 5)
             {
-                Console.WriteLine($"WARNING!: {sentence} get {danger} points");
+                Console.WriteLine($"WARNING!:\n{sentence}\nget {danger} points");
             }
             else if (danger >= 6 && danger <= 10)
             {
-                Console.WriteLine($"DANGER!: {sentence} get {danger} points");
+                Console.WriteLine($"DANGER!:\n{sentence}\nget {danger} points");
             }
             else if (danger >= 11 && danger <= 15)
             {
-                Console.WriteLine($"ULTRA ALERT!: {sentence}\nget {danger} points");
+                Console.WriteLine($"ULTRA ALERT!:\n{sentence}\nget {danger} points");
             }
             else
             {
